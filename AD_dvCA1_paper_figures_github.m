@@ -1,7 +1,7 @@
 % This code generates the figures for the AD dCA1-vCA1 paper
 %% Split up animals and ROIs, initialize variables, load histology and age data
-cd('Y:\Udaysankar Chockanathan\Aim 1\kilosort_results_all'); 
-load('kilosort_preload_final.mat'); load('ks_all_data5.mat'); load('VR_reformat.mat'); load('histology_results.mat'); 
+cd('Y:\Udaysankar Chockanathan\Aim 1\kilosort_results_all'); %Need to change this to where you downloaded the following .mat files
+load('kilosort_preload_final.mat'); load('ks_all_data_github.mat'); load('VR_reformat.mat'); load('histology_results.mat'); 
 dCA1_sites = [1,3,4,6,8,11,14,16,18,20,23,25]; %rows of ks_all_data that have dCA1 recordings
 vCA1_sites = [2,5,7,9,10,12,13,15,17,19,21,22,24,26,27]; %rows of ks_all_data that have vCA1 recordings
 WT_sites = 16:27;
